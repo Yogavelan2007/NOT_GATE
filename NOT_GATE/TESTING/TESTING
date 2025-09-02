@@ -1,0 +1,19 @@
+The testbench for the CMOS NOT gate design uses a VPULSE voltage source to provide the input signal. This pulse voltage toggles between 0 V (logic LOW) and 1 V (logic HIGH) to simulate realistic digital input levels.
+
+Key parameters of the VPULSE are:
+
+V1 (initial voltage): 0 V
+
+V2 (pulsed voltage): 1 V
+
+Period: 20 ns
+
+Rise time: 1 ns
+
+Fall time: 1 ns
+
+Pulse width: 10 ns
+
+The ground (0 V) reference is connected to the NMOS transistor source and system ground, while a VDC supply of 1 V powers the PMOS transistor source terminal, matching the logic voltage level.
+
+This setup accurately tests the NOT gate behavior at a 1 V logic swing. The output waveform confirms proper inversion: when the input pulses HIGH (1 V), the output goes LOW (near 0 V), and vice versa, demonstrating the CMOS inverter’s correct operation at this voltage level.

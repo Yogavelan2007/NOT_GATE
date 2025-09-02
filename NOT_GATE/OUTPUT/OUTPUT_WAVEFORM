@@ -1,0 +1,9 @@
+The output waveform of the CMOS NOT gate demonstrates the inverter’s fundamental behavior — producing the logical complement of the input signal.
+
+When the input voltage from the VPULSE rises from 0 V (logic LOW) to 1 V (logic HIGH), the output voltage drops from approximately 1 V to 0 V, indicating a logical LOW at the output. This occurs because the NMOS transistor turns ON (conducts) and the PMOS transistor turns OFF, pulling the output node to ground.
+
+Conversely, when the input voltage falls from 1 V back to 0 V, the output voltage rises from 0 V back to approximately 1 V, indicating a logical HIGH at the output. Here, the PMOS transistor turns ON while the NMOS transistor turns OFF, connecting the output to the positive supply voltage.
+
+The transitions in the output waveform correspond closely with the input’s rise and fall times, though there may be slight propagation delay due to the transistor switching characteristics.
+
+The waveform’s steady states at HIGH (~1 V) and LOW (~0 V) levels confirm the NOT gate’s proper operation at the given voltage swing.

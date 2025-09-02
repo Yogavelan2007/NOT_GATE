@@ -1,0 +1,5 @@
+This repository showcases the complete CMOS design and simulation of a NOT gate (inverter) using Synopsys EDA tools. It includes the detailed schematic diagram representing the CMOS transistor-level implementation, highlighting how PMOS and NMOS transistors work together to invert the input signal.
+
+The project contains a well-structured testbench used to verify the functionality of the NOT gate under different input conditions. Simulation waveforms generated from Synopsys tools demonstrate the correct logic inversion behavior — when the input is HIGH (logic 1), the output switches to LOW (logic 0), and vice versa.
+
+This repository serves as a practical guide for understanding CMOS inverter circuits, transistor operation in digital logic design, and how to use Synopsys tools for circuit simulation and verification. It is ideal for students, educators, and engineers working on VLSI design and digital electronics.
